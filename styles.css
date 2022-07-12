@@ -4,7 +4,7 @@ body{
 }
 .header{
     background-color: #1F2937;
-    padding: 5px 200px 0 100px;
+    padding: 5px 160px 0 160px;
 }
 
 .banner{
@@ -38,19 +38,18 @@ body{
     padding: 0;
     margin: 0;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero-left > p{
-    padding: 0;
-    margin: 4px;
+    margin: 8px 60px 8px 0;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .hero-left > button{
-    margin: 3px;
+    margin: 3px 0;
     background-color: #3882F6;
     border: none;
     border-radius: 8px;
@@ -64,11 +63,58 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px;
+    margin: 40px 0;
     color: #E5E7EB;
     width: 500px;
-    height: 250px;
+    height: 230px;
     background-color: grey;
     flex-shrink: 0;
 }
 
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+}
+
+.info > h2{
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+.cards{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding: 10px;
+}
+
+.card > .img{
+	width: 170px;
+	height: 170px;
+	border: 4px #3882F6 solid;
+	border-radius: 15px;
+	padding: 0;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+}
+
+.card > p{
+	padding: 0;
+	text-align: center;
+	width: 170px;
+	font-size: 18px;
+}
+
+.quote{
+	background-color: #E5E7EB;
+}
